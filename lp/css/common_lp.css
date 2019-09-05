@@ -1,0 +1,239 @@
+@charset "utf-8";
+/*---------------
+
+  reset
+
+----------------- */
+html {
+	overflow-y: scroll;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	text-rendering: optimizeLegibility;
+}
+body {
+	line-height: 1;
+}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+nav ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+	color: #000;
+}
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+/*border-bottom:1px dotted #000;*/
+	/*cursor:help;*/
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption,th {
+	text-align: left;
+}
+hr {
+	display: block;
+	height: 0;
+	border: none;
+	margin: 0;
+	line-height: none;
+}
+input, select {
+	vertical-align: middle;
+}
+nav ul {
+	list-style: none;
+}
+ol, ul {
+	list-style: none;
+}
+img {
+	vertical-align: bottom;
+	font-size: 0;
+	line-height: 0;
+	border: 0;
+}
+li img, dt img, dd img{
+vertical-align:bottom;
+}
+li {
+	list-style-type: none;
+}
+a:focus {
+	outline: none !important;
+}
+
+/*広告媒体管理*/
+.adImage img {
+	display: none !important;
+}
+
+
+
+/*--------------------------------
+
+  common
+
+---------------------------------- */
+
+/*--------- guide ---------*/
+#guide {
+	width:850px;
+	margin:0 auto 30px;
+}
+#guide dl {
+	width:100%;
+	max-width:415px;
+	float:left;
+	padding-right:20px;
+	box-sizing:border-box;
+}
+#guide dl dt {
+	background:#E7E7E2;
+	padding:8px 10px;
+	margin-bottom: 10px;
+}
+#guide dl dd {
+	margin-bottom: 10px;
+}
+#guide .table_tt_orb {
+	padding:5px 0 15px;
+	font-size:16px;
+	font-weight:bold;
+	color:#6CBF2A;
+}
+#guide p {
+	padding-bottom:10px;
+}
+#guide img {
+	width:100%;
+	max-width:415px;
+}
+@media screen and (max-width:640px) {
+	#guide {
+		width:92%;
+	}
+	#guide dl {
+		margin:0 auto 20px;
+		padding:0;
+		float:none;
+	}
+}
+
+/*--------- price ---------*/
+.price {
+font-family:'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+color:#C41A1A;
+font-weight:bold;
+font-size:36px;
+margin:5px 0 0;
+text-shadow:1px 1px 1px #FFFFFF;
+line-height:1em !important;
+}
+.taxinfo {
+	font-weight: bold;
+	font-size: 16px;
+line-height:1em !important;	
+}
+
+/*--------- footer ---------*/
+#footer {
+	color: #FFF;
+	background: #EEAD96;
+	padding: 10px 5px;
+	font-weight: normal;
+	font-size: 13px;
+	width:950px;
+	margin: 0 auto;
+	min-height:40px;
+}
+@media screen and (max-width:640px) {
+	#footer {
+		width:100%;
+		box-sizing:border-box;
+	}
+}
+#footer a {
+	color:#FFF;
+	font-weight: bold;
+}
+#footer ul {
+	padding-left:15px;
+}
+#footer ul li {
+	display:inline-block;
+}
+#copy {
+	padding-right:15px;
+	font-size: 10px;
+	text-align: right;
+}
+.icon_pagetop {
+	z-index:0;
+	display:block;
+	background:url(../../img/cmn/icon_pagetop.png) left top no-repeat;
+	width:152px;
+	height:35px;
+}
+.icon_pagetop:hover {
+	background:url(../../img/cmn/icon_pagetop.png) -152px top no-repeat;
+}
+
+/*--------- common news ---------*/
+.media_tv {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:15px auto 30px;
+	padding: 5px 5px 5px 218px;
+	width: 908px;
+	min-height: 102px;
+	border:3px solid #EB6C81;
+	border-radius: 5px;
+	background:url(../images/tv_ic.png) 5px 5px no-repeat #FFF;
+}
+.media_tv_txt {
+	padding-left: 28px;
+	font-size: 21px;
+}
+.media_tv_img {
+	padding-left: 18px;
+}

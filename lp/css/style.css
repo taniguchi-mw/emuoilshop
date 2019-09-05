@@ -1,0 +1,659 @@
+@charset "utf-8";
+
+/*--- style */
+body {
+	background: url(../../img/cmn/bdy_bg.png) left top repeat;
+	color: #565A57;
+	font-size: 16px;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", verdana, Osaka, Sans-Serif;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+}
+a {
+	color: #15BBBF;
+	text-decoration: none;
+}
+a:link {
+	color: #15BBBF;
+}
+a:visited {
+	color: #15BBBF;
+}
+a:hover {
+	color: #17D0D5;
+}
+a:active {
+	color: #17D0D5;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #FFF;	
+	box-shadow: 0 0 30px #EDE6E4;
+}
+.topimg {
+	margin:0 auto;
+	width:960px;
+	height:601px;
+}
+.topimg p {
+	margin-left:-50px;
+	width:1062px;
+	height:601px;
+	background:url(../images/topimg.png) top left no-repeat;
+    overflow: hidden;
+    text-indent: 1000%;
+    white-space: nowrap;
+}
+@media screen and (max-width: 960px) {
+   /*--- 表示領域が1062px以下の場合に適用するスタイル ---*/
+   .topimg p {margin:0;width:960px;background:url(../images/topimg.png) top center no-repeat;}
+}
+h1 {
+	color: #FFF;
+	background: #EEAD96;
+	padding: 5px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 16px;
+}
+.orderbox {
+	position:relative;
+}
+.orderbox a {
+	display:block;
+	width:100%;
+}
+.orderbox li:first-child {
+	margin-left:0;
+}
+.orderbox li {
+	float:left;
+}
+.orderbox_b {
+	width: 830px;
+	height:340px;
+	margin: 15px auto 30px;
+}
+.orderbox_s {
+	width: 830px;
+	height:198px;
+	margin: 0 auto 15px;
+}
+.orderbox_b li {
+	margin-left:15px;
+	width:407px;
+	height:325px;
+}
+.orderbox_s li {
+	margin-left:15px;
+	width:405px;
+	/* height:198px; */
+}
+.orderbox_s li:last-child {
+	width:410px;
+	padding-top:41px;
+}
+
+/*　キャンペーン　*/
+.campaign_bnr {
+	margin:0 auto 50px;
+	text-align: center;
+}
+.campaign_bnr a:hover {
+	opacity: 0.8;
+}
+
+/*-------- movie --------*/
+.movieBox {
+	position:relative;
+	margin:0 auto 15px;
+	width:740px;
+	height:218px;
+}
+.movieBox_btn {
+	position:absolute;
+	top:30px;
+	right:32px;
+	width:237px;
+	height:148px;
+}
+.movieBox_btn a {
+	display:block;
+	width:100%;
+}
+.movieBox__emu {
+	background:url(../../img/movie/bn_movie_emu.png) center top no-repeat;
+	background-size:cover;
+}
+.movieBox__SconBox {
+	width:710px;
+	height:209px;
+}
+.movieBox__SconBox .movieBox_btn {
+	position:absolute;
+	top:24px;
+	right:26px;
+}
+.movieEmu__side {
+	position:relative;
+	margin:10px auto;
+	width:100%;
+	height:250px;
+	background:url(../../img/movie/bn_movie_emu_s.png) left top no-repeat;
+}
+.movieEmu_btn__side {
+	position:absolute;
+	top:91px;
+	right:22px;
+	width:186px;
+	height:115px;
+}
+.movieEmu_btn__side a {
+	display:block;
+	width:100%;
+}
+.movieEmu_btn__side a img {
+	width:100%;
+}
+
+
+/* テレビ紹介やキャンペーンなど */
+.orderbox li.teiki_order p {
+	position:absolute;
+	width:161px;
+	height:134px;
+	top:-22px;
+	right:-130px;
+}
+.orderbox li.crystal_order {
+	position:absolute;
+	bottom: 0;
+	right:0;
+	width: 410px;
+	height:151px;
+}
+.orderbox li.crystal_order a {
+	display:block;
+	width: 410px;
+	height:151px;
+}
+/* テレビ紹介やキャンペーンなど */
+.orderbox li.crystal_order p {
+	position:absolute;
+	width:162px;
+	height:149px;
+	top:-22px;
+	right:-130px;
+}
+.campaign_cs15 {
+	position: relative;
+}
+.campaign_cs15 span.cmp_img {
+	top: -15px;
+	right: 0px;
+	position: absolute;
+	width: 161px;
+	height: 142px;
+	background: url(https://emu-oil.asia/img/order/campaign_cs15.png) left top no-repeat;
+}
+
+
+.arrow {
+	text-align: center;
+	margin: 20px auto;
+}
+.fanBlock {
+	position:relative;
+	margin:0 auto 40px;
+	padding:30px;
+	width:822px;
+	background:url(../images/fan_bg_side.png) left top repeat-y #FFF;
+	box-shadow: 6px 11px 6px #E8E8E8;
+}
+.fanBlock::before {
+	content:'';
+	position:absolute;
+	top:-2px;
+	left:0px;
+	width:882px;
+	height:2px;
+	background: url(../images/fan_bg_top.png) left top repeat-x;	
+}
+.fanBlock::after {
+	content:'';
+	position:absolute;
+	bottom:-2px;
+	left:0px;
+	width:882px;
+	height:2px;
+	background: url(../images/fan_bg_top.png) left top repeat-x;	
+}
+.fanBlock h3 {
+	padding-bottom: 30px;
+}
+.fanBlock p {
+	padding-bottom: 20px;
+}
+.fanBlock span {
+	background-color: #FFF5F4;
+}
+/* fanBlock01 */
+.fanBlock01 .fanBlock01_img01 {
+	position:absolute;
+	right:40px;
+	bottom:140px;
+	width:153px;
+	height:136px;
+}
+/* fanBlock02 */
+.fanBlock02 .fanBlock02_txt01 {
+	z-index:1;
+	position: absolute;
+	left: 30px;
+	top: 180px;
+	width: 540px;
+}
+.fanBlock02 .fanBlock02_txt02 {
+	padding-bottom: 0;
+	font-size: 10px;
+	line-height: 1.6em;
+	text-align: right;
+}
+.fanBlock02 .fanBlock02_img01 {
+	z-index:0;
+	position: absolute;
+	right: 0;
+	top: 160px;
+	width: 311px;
+	height:316px;
+}
+.fanBlock02 .fanBlock02_img02 {
+	padding-top: 210px;
+}
+/* fanBlock03 */
+.fanBlock03 .fanBlock03_txt01 {
+}
+.fanBlock03 .fanBlock03_txt02 {
+	margin: 20px 0 30px;
+	width: 620px;
+	font-size: 14px;
+}
+.fanBlock03 .fanBlock03_txt02 dd {
+	margin-bottom: 10px;
+}
+.fanBlock03 .fanBlock03_img01 {
+	z-index:0;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	width: 198px;
+	height:308px;
+}
+
+#voice_doc span, #voice_chemi span {
+background-color: #D8F8F8;
+}
+#shizuku1 span, #shizuku2 span, #shizuku3 span {
+background-color: #D9F9D7;
+}
+#voice_doc {
+	width: 660px;
+	padding:15px 15px 15px 160px;
+	background:url(../images/doc_voice.png) left top no-repeat;
+	margin: 20px auto;
+	height:154px;
+}
+#voice_chemi {
+	width: 660px;
+	padding:15px 160px 15px 15px;
+	background:url(../images/chemi_voice.png) left top no-repeat;
+	margin: 20px auto;
+	height:164px;
+}
+#voice_doc p, #voice_chemi p {
+	padding-bottom: 10px;
+}
+#shizuku1, #shizuku2, #shizuku3 {
+	border-top: 1px dashed #93938E;
+	padding-top:30px;
+	margin:30px auto 0;
+	width: 850px;
+}
+#shizuku1 h3, #shizuku2 h3, #shizuku3 h3 {
+	margin-bottom: 30px;
+}
+#shizuku1 p, #shizuku2 p, #shizuku3 p {
+	margin-bottom: 10px;
+}
+#shizuku1 {
+	background: url(../images/img10.png) right 210px no-repeat;
+	padding-right: 230px;
+	width: 620px;
+}
+#shizuku2 {
+	background: url(../images/img12.png) right 30px no-repeat;
+	padding-right: 0px;
+	width: 850px;
+}
+#shizuku3 {
+	background: url(../images/img14.png) left bottom no-repeat;
+	width: 850px;
+	min-height: 240px;
+}
+#shizuku3 p {
+	padding-right: 110px;
+	padding-left:250px;
+}
+
+/* -- reportBlock  -- */
+.reportBlock {
+	width:100%;
+	margin:0 auto;
+}
+.reportBlock_title {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.reportBlock_voice {
+	padding-bottom:10px;
+	text-align: center;
+}
+.reportBlock_point {
+	margin:0 auto 30px;
+	padding:0 0 30px 0;
+	width:768px;
+	border-bottom: 1px dashed #93938E;
+}
+.reportBlock_pointBox {
+	padding-right:255px;
+	width:513px;
+	min-height:400px;
+}
+.reportBlock_pointBox01 {
+	background:url(../images/report_img04.png) right top no-repeat;
+}
+.reportBlock_pointBox02 {
+	background:url(../images/report_img05.png) right top no-repeat;
+}
+.reportBlock_pointBox03 {
+	background:url(../images/report_img06.png) right top no-repeat;
+}
+.reportBlock_pointBox04 {
+	background:url(../images/report_img07.png) right top no-repeat;
+}
+.reportBlock_point_title01 {
+	margin:24px 0;
+	font-size:24px;
+	font-weight: bold;
+	color:#EB6C7F;
+}
+.reportBlock_point_title02 {
+	margin:24px 0;
+	font-size:24px;
+	font-weight: bold;
+	color:#26BFD1;
+}
+.reportBlock_point_list {
+	width:100%;
+}
+.reportBlock_point_list li {
+	margin:0 0 10px 30px;
+	list-style: disc;
+}
+.reportBlock_info {
+	margin: 30px auto 10px;
+	padding:20px 24px;
+	width:600px;
+	border-radius:10px;
+	font-size:16px;
+	background-color:/* #D7F0F2 *//* #FFD187 *//* #FAD6DB */#FCF9DC;
+	border: 2px solid #FFD187;
+}
+.reportBlock_info h3 {
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* -- massageBlock  -- */
+.massageBlock {
+	position:relative;
+	margin:0 auto 2px;
+	width:868px;
+	height:270px;
+	background:url(../images/massage_bg.jpg) left top no-repeat;
+}
+.massageBlock .massageBlock_txt {
+	position:absolute;
+	right:15px;
+	top:120px;
+	width:295px;
+	height:95px;
+}
+.massageBlock .massageBlock_txt2 {
+	position:absolute;
+	right:15px;
+	bottom:15px;
+	width:295px;
+	height:45px;
+	font-weight: bold;
+	color:#1C43AA;
+}
+.massageBlock .massageBlock_link {
+	position:absolute;
+	right:15px;
+	bottom:15px;
+	padding:0 0 0 20px;
+	width:275px;
+	height:25px;
+	background:url(../../img/cmn/link_b.gif) 8px 50% no-repeat;
+}
+/* -- longBlock  -- */
+.longBlock {
+	margin:0 auto 50px;
+	width:868px;
+	height:270px;
+	background:url(../images/long_bg.jpg) left top no-repeat;
+}
+
+/* -- voicelistBlock  -- */
+.voicelistBlock {
+	margin:0 auto;
+	padding:15px 15px;
+	max-width:838px;
+}
+.voicelistBlock-ocher {
+	padding:30px;
+background-color: #FFF5F4;
+background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #FFEFEF), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #FFEFEF),color-stop(.75, #FFEFEF), color-stop(.75, transparent),to(transparent));
+background-image: gradient(linear, 0 0, 100% 100%,color-stop(.25, #FFEFEF), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #FFEFEF),color-stop(.75, #FFEFEF), color-stop(.75, transparent),to(transparent));
+-webkit-background-size: 14px 14px;
+background-size: 14px 14px;
+}
+.voicelistBlock__list {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.voicelistBlock__list li {
+	padding:10px;
+    flex-basis: 399px;
+}
+.voicelistBlock li.voicelistBlock_last {
+    flex-basis: 100%;
+}
+.voicelistBlock__list img {
+	width:100%;
+}
+.voicelist_text {
+	margin-bottom: 40px;
+	text-align: right;
+	font-size: 12px;
+}
+
+
+#orderlist_tt {
+	width:820px;
+	margin:10px auto 30px;
+	background:url(../images/orderlist_tt.png) left bottom no-repeat;
+	padding: 0 0 5px 30px;
+}
+.orderList-signle {
+	width:850px;
+	margin:0 auto 10px;
+}
+.orderList-signle p {
+	margin-bottom: 10px;
+}
+.orderList-signle .lbox {
+	width:222px;
+	padding-right: 18px;
+	float: left;
+}
+.orderList-signle .rbox {
+	width: 610px;
+	font-size: 14px;
+	float:left;
+}
+.orderList-signle .orderbtn a, .orderList .orderbtn a {
+	background:url(../../img/cmn/link_b.gif) 10px 50% no-repeat;
+	padding:5px 0 5px 20px;
+	border:1px solid #15BBBF;
+	color:#15BBBF;
+	width:200px;
+	display:block;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.orderList .orderbtn a {
+	width:180px;
+	margin-top: 5px;
+}
+.orderList-signle .orderbtn a:hover, .orderList .orderbtn a:hover {
+	background:url(../../img/cmn/link_w.gif) 10px 50% no-repeat #15BBBF;
+	color:#FFFFFF;
+}
+.orderList {
+	width:848px;
+	margin:0 auto 20px;
+}
+.orderList li {
+	width:202px;
+	float:left;
+	padding:0 10px 15px 0;	
+}
+.orderList li:last-child {
+padding-right: 0px;	
+}
+.gift_form {
+}
+.gift_form input {
+	width:222px;
+	height:50px;
+	padding:5px;
+}
+
+
+#merit {
+	width:610px;
+	padding-top: 13px;
+}
+#merit li {
+	float:left;
+}
+#merit li.point {
+	width:340px;
+}
+#merit li.shop {
+	width:243px;
+}
+
+
+.oshirase {
+	width:800px;
+	padding:15px;
+	border: 3px solid #EEE;
+	margin:10px auto;
+}
+.hsh {
+	background:url(../images/hsh.png) 96% 50% no-repeat;
+}
+
+/*--- キャンペーンLP ---*/
+.camp_lp {
+	position:relative;
+	padding-top:630px;
+	background: url(../images/camp/top_bg.png) top left no-repeat #FFF !important;
+}
+.camp_lp h1 {
+	position:absolute;
+	z-index:2;
+	top:0px;
+	left:50%;
+	margin-left:-581px;
+	width:1153px;
+	height:127px;
+	background:none;
+/*	transform: rotate(-2deg);
+-ms-transform: rotate(-2deg);
+-webkit-transform: rotate(-2deg);
+-moz-transform: rotate(-2deg);*/
+}
+.camp_lp .topimg {
+	position:absolute;
+	z-index:1;
+	top:85px;
+	left:50%;
+	margin-left:-531px;
+	width:1062px;
+	height:601px;
+	background-color: transparent;
+}
+.camp_lp .orderbox {
+	width: 844px;
+	height:360px;
+	position:relative;
+	margin: 30px auto;
+}
+.camp_lp .orderbox li.s15_order a {
+	display:block;
+	position:absolute;
+	bottom: 0;
+	left:0;
+	width: 407px;
+	height:360px;
+}
+.camp_lp .orderbox li.s72_order a {
+	display:block;
+	position:absolute;
+	top: 0;
+	right:0;
+	width: 407px;
+	height:360px;
+}
+.camp_lp .orderbox li a {
+    -webkit-transition: 0.2s ease-in-out;
+       -moz-transition: 0.2s ease-in-out;
+         -o-transition: 0.2s ease-in-out;
+            transition: 0.2s ease-in-out;
+}
+.camp_lp .orderbox li a:hover {
+	opacity: 0.8;
+	background-color: #fff;
+}
+
+.product_info {
+	margin: 30px auto 60px;
+	width:820px;
+	font-size: 14px;
+}
+.camp_lp .oshirase {
+	width:814px;
+	padding:15px;
+	border: 3px solid #EEE;
+	margin:0 auto 20px;
+}
+

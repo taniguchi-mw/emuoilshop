@@ -1,0 +1,4 @@
+User-Agent:*
+Disallow: /lp/
+Disallow: /hanbai_form/
+Sitemap: https://emu-oil.asia/sitemap.xml

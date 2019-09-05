@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+img {
+	width: 100%;
+	vertical-align:bottom;
+}
+a {
+	display: block;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+  word-break: break-all;
+  word-wrap: break-all;
+}
+.spDispNon { display:none; }
+.img100Non { width:auto; }
+
+
+/*--- reset */
+html {
+	overflow-y: scroll;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+	font-weight:normal;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption,th {
+	text-align: left;
+}
+q:before,q:after {
+	content: '';
+}
+object,
+embed {
+	vertical-align: top;
+}
+hr,legend {
+	display: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+img,abbr,acronym,fieldset {
+	border: 0;
+}
+li {
+	list-style-type: none;
+}
+a:focus {
+	outline: none !important;
+}
+
+
+li img,dt img,dd img{
+vertical-align:bottom;
+}
+
+/*--- set */
+.ta-c {
+	text-align:center;
+}
+.mt-5 {	margin-top:5px !important;}
+.mt-20{ margin-top: 20px!important; }
+.mt-30{ margin-top: 30px!important; }
+.ml-20{ margin-left: 20px!important; }
+.ml-30{ margin-left: 30px!important; }
+.mb-5{ margin-bottom: 5px!important; }
+.mb-10{ margin-bottom: 10px!important; }
+.mb-20{ margin-bottom: 20px!important; }
+.mtb-10{ margin-top: 10px!important; margin-bottom: 10px!important; }
+.fs-12 {
+	font-size:12px!important;
+}
+.fs-16 {
+	font-size:16px;
+}
+.fs-18 {
+	font-size:18px;
+}
+.fs-28 {
+	font-size:28px;
+}
+.fc-redb {
+	color:#C41A1A;
+	font-weight:bold;
+}
+.fc-blb {
+	color:#333333;
+	font-weight:bold;
+	}
+.fc-grb {
+	color:#8FAF2E;
+	font-weight:bold;	
+	}	
+.fw-b {
+	font-weight:bold;
+}
+.ts_clear {/*テキストシャドウをクリア*/
+	text-shadow: 0 0 0 transparent !important;
+}
+
+	
+
+/*----------------------------------------------------
+	基本設定、リンクカラーなど、以下カスタマイズ↓
+----------------------------------------------------*/
+body {
+	background: url(../img/cmn/bg.gif) top left repeat;
+	color: #565A57;
+	font-size: 14px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", "メイリオ", "Meiryo", verdana, Osaka, Sans-Serif;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+}
+.bdy_bg {
+	background: url(../img/cmn/bdy_bg.png) 42% top no-repeat;
+	width:100%;
+}
+a {
+	color:#15BBBF;
+	text-decoration:none;
+}
+a:link {
+	color:#15BBBF;
+}
+a:visited {
+	color:#15BBBF;
+}
+a:hover {
+	color:#17D0D5;
+}
+a:active {
+	color:#17D0D5;
+}
+
+/*----------------- 幅はここで設定 */
+#wrapper {
+	width: 100%;
+	margin:0 auto;
+}
+/*h3最大幅*/
+.conbox900 {
+	width: 100%;
+	margin:0 auto;
+	clear:both;
+}
+/*テキスト最大幅*/
+.box860 {
+	width: 100%;
+	margin:0 auto;
+	clear:both;
+}
+/*BOX＆テキスト用*/
+.box840_p10 {
+	width: 100%;
+	padding:10px;
+	margin:0 auto;
+	clear:both;
+}
+/*フォームのテーブル幅*/
+.formbox {
+	width: 100%;
+	margin:0 auto 20px;
+}
+
+
+
+/*------------------- フォーム */
+/* header */
+#header {
+	padding: 2rem 1rem 1rem;
+}
+h1 {
+	padding: 0 0;
+}
+#logo {
+	text-align: center;
+	padding: 1rem 0 0;
+}
+
+/*contents*/
+#contents {
+	width:100%;
+	border:1px solid #EDEAE2;
+	padding:10px 18px 30px;
+	background:#FFFFFF;
+	margin:0 auto 30px;
+}
+h2 {
+	background: url(../img/order/ttb_bg.jpg) no-repeat scroll left 3px transparent;
+	width:100%;
+	height:25px;
+	font-size:18px;
+	font-weight:bold;
+	padding:0 0 0 30px;
+	margin:20px 0 30px;
+}
+h3 {
+	background:url(../img/cmn/tts_bg.gif) left 3px no-repeat;
+	width:100%;
+	height:14px;
+	font-weight:bold;
+	padding:0 0 0 15px;
+	margin:0 0 20px;
+}
+
+/*ステップ*/
+.step {
+	margin:10px auto 40px;
+	text-align:center;
+}
+/*注意事項*/
+.order_txt01 {
+	border: 2px solid #626863;
+	padding: 10px;
+	margin-bottom:20px;
+}
+/*エラー*/
+.order_txt02 {
+	border: 4px solid #C41A1A;
+	padding: 10px;
+	margin-bottom:20px;
+	color:#C41A1A;
+}
+/*個人情報の取扱(frame)*/
+.pp {
+	margin-bottom:20px;
+}
+/*テーブル*/
+#contents table {
+	border:#CCCCCC 1px solid;
+	margin:0 auto 10px;
+}
+#contents th {
+	background:#E7E7E2;
+	border:#CCCCCC 1px solid;
+	padding:10px;
+	width:25%;
+}
+#contents td {
+	background:#FFFFFF;
+	border:#CCCCCC 1px solid;
+	padding:10px;
+	width:75%;
+}
+
+/*同意画面ボタン*/
+#doui {
+	clear:both;
+	margin: 30px auto 0;
+	border: 2px solid #96B830;
+	background-color: #C8DE83;
+	text-align: center;
+}
+/*確認等ボタン*/
+.btn_inner {
+	padding:10px;
+	margin:30px auto;
+	border: solid 3px #77C100;
+	text-align:center;
+}
+
+
+/*footer*/
+#footer {
+	width:100%;
+	background:url(../img/contact/f_bg.jpg) left top repeat-x;
+}
+address {
+	font-size:12px;
+	text-align: center;
+	padding: 10px;
+}
+

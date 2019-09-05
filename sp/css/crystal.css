@@ -1,0 +1,649 @@
+@charset "utf-8";
+
+/*----------------------------------------------------
+	基本設定、リンクカラーなど
+----------------------------------------------------*/
+body {
+	background: url(../images/crystal_sp/bg.png) left top repeat;
+	color: #555957;
+	font-size: 1.000em;/*16px*/
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", verdana, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+	overflow: hidden;
+}
+a {
+	color: #555957;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+.bc-bl {
+	background-color:#D6EAF3;
+}
+.fc-bl {
+	color:#3E99D4;
+}
+.order_crystal {
+	text-align: center !important;
+	width: 98%;
+	margin: 10px auto;
+	max-width:373px;
+}
+.order_crystal a {
+	width: 100%;
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 14px 10px 5px;
+	background: url(../images/crystal_sp/order_cs_bg.png),
+	-moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#FAFBFD 60%,
+		#F5F7FA 80%,
+		#EFF2F5);
+	background:
+	 url(../images/crystal_sp/order_cs_bg.png),
+	 -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.6, #FAFBFD),
+		color-stop(0.8, #F5F7FA),
+		to(#EFF2F5));
+	border: 1px solid #F5F7FA;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 3px 3px 5px rgba(000,000,000,0.2),  inset 1px 1px 3px rgba(255,255,255,1);
+	-webkit-box-shadow: 3px 3px 5px rgba(000,000,000,0.2), inset 1px 1px 3px rgba(255,255,255,1);
+	box-shadow: 3px 3px 5px rgba(000,000,000,0.2),  inset 1px 1px 3px rgba(255,255,255,1);
+	background-repeat: no-repeat, repeat;
+	background-position: 0 50%, left top;
+	background-size: cover, auto;
+
+}
+.order_crystal a img {
+	width: 100%;
+	max-width:300px !important;
+	max-height:43px !important;
+}
+.order_teiki a img {
+	text-align: center !important;
+	width: 98%;
+	margin: 10px auto;
+	max-width:640px;
+}
+
+/*-- header --*/
+header {
+	background: #EEAD98;
+	padding: 5px;
+display:-moz-box;
+display:-webkit-box;
+display:-o-box;
+display:-ms-box;
+	line-height: 1em;
+}
+header h1 {
+	width: 150px;
+	float:left;	
+}
+header h1 a {
+	display:block;
+	width:100%;
+}
+header h1 a img {
+	width: 100%;
+}
+header p {
+	text-align: right !important;
+	float:right;
+}
+.pcsite_w a {
+	display: block;
+	background: url(../images/icon_pcw.png) right 49% no-repeat;
+	padding-right: 25px;
+	color: #FFF;
+	min-height: 20px;
+	line-height: 20px;
+}
+#bn_crystal {
+	padding:0;
+	margin:0 auto;
+	width:100%;
+	text-align: center;
+}
+.bn_allinonegel {
+	margin:0 auto;
+	text-align: center;
+	max-width:230px;
+}
+
+/*-- article --*/
+article {
+	width: 100%;
+	margin: 0 auto 10px;
+}
+article p {
+	padding-bottom: 10px;
+}
+
+/*-- topimg #s1 --*/
+#s1 {
+	position: relative;
+	text-align: center;
+	padding:10px 0 0;
+}
+#s1 h2 {
+	padding:10px 0;
+	text-align: center;	
+}
+#s1 h2 img {
+	max-width: 600px;
+	width: 94%;
+}
+#s1 img {
+	width: 100%;
+	max-width: 600px;
+}
+#s1 ul li a, #s5 ul li a {
+	display:block;
+	width: 100%;
+	max-width: 600px;
+	margin:0 auto;
+}
+#s1 ul li:first-child, #s5 ul li:first-child {
+	padding:10px 0 3px;
+}
+
+/*-- #s2 --*/
+#s2 {
+	width: 100%;
+	padding:20px 0 15px;
+	background:#FFF;
+}
+#s2 h3 {
+	margin:0 auto;
+	text-align: center;
+	width: 50%;
+	max-width:252px;
+	max-height:292px;
+}
+#s2 h3 img {
+	width: 100%;
+}
+#s2 p {
+	width: 94%;
+	height:auto;
+	margin: 0 auto;
+}
+#s2 div {
+	margin:-15px 0 0 -10%;
+	text-align: center;
+	width: 80%;
+	max-width:628px;
+	max-height:293px;
+	padding-bottom: 15px;
+}
+#s2 div img {
+	width: 100%;
+}
+
+/*-- #s3 --*/
+#s3 {
+	width: 100%;
+	padding:15px 0;
+	background: url(../images/crystal_sp/s3_bg.png) left top repeat;
+}
+#s3 h3 {
+	padding:10px 0;
+	text-align: center;	
+}
+#s3 h3 img {
+	max-width: 595px;
+	width: 94%;
+}
+#s3 .box_s3, #s4 .box_s3 {
+	width:94%;
+	margin:10px auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:15px;
+	background:#FFF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0px 0px 5px rgba(000,000,000,0.2),  inset 1px 1px 3px rgba(255,255,255,1);
+	-webkit-box-shadow: 0px 0px 5px rgba(000,000,000,0.2), inset 1px 1px 3px rgba(255,255,255,1);
+	box-shadow: 0px 0px 5px rgba(000,000,000,0.2),  inset 1px 1px 3px rgba(255,255,255,1);
+	
+}
+#s3 h4 {
+	padding-left: 10px;
+	border-left: 5px solid #EA5F67;
+	color:#EA5F67;
+	margin-bottom: 10px;
+	text-align:left;
+}
+#s3 div {
+	text-align: center;
+}
+#s3 div p {
+	text-align: left;
+}
+#s3 div > img, #s4 div > img {
+	max-width:527px;
+	padding: 5px 0 20px;
+}
+
+/*-- #s4 --*/
+#s4 {
+	width: 100%;
+	padding:15px 0;
+	background: url(../images/crystal_sp/s4_bg.png) left top repeat;
+}
+#s4 h3 {
+	padding:10px 0;
+	text-align: center;	
+}
+#s4 h3 img {
+	max-width: 595px;
+	width: 94%;
+}
+#s4 h4 {
+	padding-left: 10px;
+	border-left: 5px solid #3E99D5;
+	color:#3E99D5;
+	margin-bottom: 10px;
+	text-align:left;
+}
+#s4 div {
+	text-align: center;
+}
+#s4 div p {
+	text-align: left;
+}
+
+/*-- #s5 --*/
+#s5 {
+	position: relative;
+	text-align: center;
+	padding:15px 0 5px;
+}
+#s5 h3 {
+	padding:10px 0;
+	text-align: center;	
+}
+#s5 h3 img {
+	max-width: 600px;
+	width: 94%;
+}
+#s5 img {
+	width: 100%;
+	max-width: 600px;
+}
+#s5 p {
+	text-align: left;
+}
+
+/*-- #s6 --*/
+#s6 {
+	width: 100%;
+	padding:15px 0 5px;
+	background: url(../images/crystal_sp/s6_bg.png) left top repeat;
+
+}
+#s6 h3 {
+	padding:0;
+	text-align: center;	
+}
+#s6 dl {
+	width: 94%;
+	margin:0 auto 10px;
+}
+#s6 h3 img {
+	max-width: 565px;
+	width: 94%;
+}
+#s6 dl dt {
+	color:#FFF;
+	text-shadow:0px 0px 18px rgba(135,160,82,0.65);
+}
+#s6 dl dd {
+	color:#FEFAD1;
+	padding-left: 30px;
+	text-shadow:0px 0px 18px rgba(135,160,82,0.65);
+	padding-bottom: 10px;	
+}
+
+/*-- #s7 --*/
+#s7 {
+	width: 100%;
+	padding:15px 0;
+	background: #FFF;
+}
+#s7 h3 {
+	padding:0 0 15px;
+	text-align: center;	
+}
+#s7 h3 img {
+	max-width: 565px;
+	width: 94%;
+}
+#s7 div {
+	max-width:213px;
+	margin:0 auto 10px;
+}
+#s7 div img {
+	width: 213px;
+	height:201px;
+	display:inline-block;
+	padding-bottom: 15px;
+}
+#s7 p {
+	width: 94%;
+	margin:0 auto;
+	text-align: center;
+}
+
+/*-- #s8 --*/
+#s8 {
+	width: 100%;
+	background:#FFF;
+	padding:0 0 25px;
+}
+#s9 {
+	width: 100%;
+	padding:0 0 15px;
+}
+#s8 h3, #s9 h3 {
+	background: #EEAD98;
+	text-align:center;
+	padding:5px;
+	color:#FFF;
+	font-size: 0.875em;/*14px*/
+	margin: 0 auto;
+}
+#s8 h4, #s9 h4 {
+	text-align: center;
+	padding: 10px 0 5px;
+	color:#EA5F67;
+}
+#s8 div, #s9 div {
+	width:94%;
+	max-width: 340px;
+	margin:0 auto;
+}
+#s8 div video, #s9 div video {
+	width: 100%;
+}
+
+
+/*-- f_order --*/
+#f_order {
+	width: 100%;
+	padding:0 0 5px;
+}
+.orderbox01 {
+	width: 94%;
+	margin:0 auto;
+	padding:15px 0 5px;
+	border-bottom: 1px dashed #E0D1A5;
+}
+.orderbox01 p {
+	text-align: center;
+}
+.price {
+font-family:'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+color:#C41A1A;
+font-weight:bold;
+font-size:36px;
+margin:5px 0 0;
+text-shadow:1px 1px 1px #FFFFFF;
+line-height:1em !important;
+}
+.taxinfo {
+	color:#8FAF2E;
+}
+.point {
+	padding-bottom: 10px;
+	max-width:326px;
+	text-align: center;
+	margin:0 auto;
+}
+.orderbox01 .orderbtn a {
+	background:url(https://emu-oil.asia/img/cmn/link_w.gif) 10px 50% no-repeat #15BBBF;
+	padding:5px 0 5px 20px;
+	border:1px solid #15BBBF;
+	color:#FFFFFF;
+	width:200px;
+	display:block;
+	font-size: 14px;
+	margin:10px auto;
+	text-align: left;
+}
+.orderbox01 .orderbtn a:hover {
+	background:url(https://emu-oil.asia/img/cmn/link_b.gif) 10px 50% no-repeat transparent;
+	color:#15BBBF;
+}
+
+.orderform {
+	width: 222px;
+	margin:10px auto;
+	padding:0;
+}
+.orderform div {
+	width: 100px;
+	float:left;
+	vertical-align:bottom;
+	padding-top: 7px;
+}
+.orderform div form {
+	margin:0;
+	padding:0;
+}
+.orderform p {
+	width: 122px;
+	float:left;
+}
+.orderform p input[type="submit"] {
+	background:url(https://emu-oil.asia/img/cmn/link_w.gif) 10px 50% no-repeat #15BBBF;
+	padding:5px 0 5px 20px;
+	border:1px solid #15BBBF;
+	color:#FFF;
+	width:120px;
+	text-align:left;
+	display:block;
+	font-size: 14px;
+	line-height: 22px;
+	margin:0;
+}
+.orderform p input[type="submit"]:hover {
+	background:url(https://emu-oil.asia/img/cmn/link_b.gif) 10px 50% no-repeat transparent;
+	color:#15BBBF;
+}
+.gift_form {
+	margin-bottom:10px;
+	text-align:center;
+}
+.gift_form input {
+	margin-left:10px;
+	padding:5px;
+	width:200px;
+	height:60px;
+	text-align:center;
+}
+
+#cs_list {
+	width:930px;
+	margin:0 auto 40px;
+}
+#cs_list li {
+	width:222px;
+	height:354px;	
+	float:left;
+	padding-right: 14px;	
+}
+#cs_list li.last {
+padding-right: 0px;	
+}
+#cs_list li .fs-12 {
+	line-height:12px;
+}
+
+/*　キャンペーン　*/
+.campaign_cs {
+	position:relative;
+}
+.campaign_cs span.cmp_img {
+	top: -24px;
+	left: 50%;
+	position: absolute;
+	width: 162px;
+	height: 149px;
+	background: url(https://emu-oil.asia/img/order/campaign_cssouryou.png) left top no-repeat;
+}
+.campaign_cs15 {
+	position: relative;
+}
+.campaign_cs15 span.cmp_img {
+	top: -25px;
+	left:50%;
+	position: absolute;
+	width: 161px;
+	height: 142px;
+	background: url(https://emu-oil.asia/img/order/campaign_cs15.png) left top no-repeat;
+}
+.cs_order_bnr span {
+	display: inline-block;
+	padding: 5px 0;
+	font-size: 14px;
+	line-height:1.2em;
+	color: #15BBBF;
+}
+
+/*-- teiki --*/
+.btn_teiki {
+	margin: 15px auto;
+	width:204px;
+	border: 1px solid #6EC3CA;
+}
+.btn_teiki a {
+	display:block;
+	width:100%;
+}
+.btn_teiki_img {
+	width: 100%;
+}
+.btn_teiki_txt {
+	padding:8px 13px 8px 8px;
+	text-align: left !important;
+	line-height: 1.4em;
+	font-size: 12px;
+	color:#15BBBF;
+	background:url(https://emu-oil.asia/img/cmn/link_b.gif) 97% 50% no-repeat #FFF;
+}
+.btn_teiki_txt:hover {
+	color: #17D0D5;
+}
+
+
+/*-- footer --*/
+#pcsite {
+	text-align: center;
+	padding: 5px 0;
+	width: 98%;
+	margin: 0 auto;
+}
+#pcsite a {
+	width: 100%;
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1.125em !important;/*18px*/
+	color: #A1A1A1;
+	padding: 10px 10px 10px 35px;
+	background-image: url(../images/icon_pcg.png), -moz-linear-gradient(  top,  #FFF 0%,  #F6F6F6);
+	background-image: url(../images/icon_pcg.png), -webkit-gradient(  linear, left top, left bottom,  from(#FFF),  to(#F6F6F6));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+	-moz-box-shadow: 1px 2px 10px rgba(000,000,000,0.5),  inset 0px 0px 3px rgba(255,255,255,1);
+	-webkit-box-shadow: 1px 2px 10px rgba(000,000,000,0.5), inset 0px 0px 3px rgba(255,255,255,1);
+	box-shadow: 1px 2px 10px rgba(000,000,000,0.5),  inset 0px 0px 3px rgba(255,255,255,1);
+	text-shadow: 0px -1px 0px rgba(000,000,000,0.2),  0px 1px 0px rgba(255,255,255,1);
+	background-repeat: no-repeat, repeat;
+	background-position: 5px 50%, left top;
+}
+#pcsite a img {
+	width: 100%;
+}
+#guide {
+	background:#FFF;
+}
+#guide h4 {
+	background: #EEAD98;
+	text-align:center;
+	padding:5px;
+	color:#FFF;
+	font-size: 0.875em;/*14px*/
+	margin: 10px auto 10px;
+}
+#guide h5 {
+	background:#FFFBEC;
+	padding:5px 8px;
+	width:94%;
+	margin:0 auto 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+#guide p {
+	padding-bottom:10px;
+	width:94%;
+	margin:0 auto;
+	font-size: 0.875em;/*14px*/		
+}
+#guide .table_tt_orb {
+	padding:5px 0 10px;
+	font-size:16px;
+	font-weight:bold;
+	color:#6CBF2A;
+}
+#f_navi {
+	background: #EEAD98;
+	text-align:center;
+	padding:5px;
+	font-size: 0.875em;/*14px*/
+	margin: 0 auto;
+}
+#f_navi ul li {
+	display:inline-block;
+	font-size: 0.750em;/*12px*/
+	padding:0 3px;
+}
+#f_navi a {
+	color:#FFF;
+}
+#copy {
+	color:#FFFBEC;
+	font-size: 0.625em;/*10px*/
+	background: #EEAD98;
+	text-align: center;	
+}

@@ -1,0 +1,590 @@
+@charset "utf-8";
+
+/*--- style */
+body {
+	background: url(../../img/cmn/bdy_bg.png) left top repeat;
+	color: #565A57;
+	font-size: 16px;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", verdana, Osaka, Sans-Serif;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+}
+a {
+	color: #15BBBF;
+	text-decoration: none;
+}
+a:link {
+	color: #15BBBF;
+}
+a:visited {
+	color: #15BBBF;
+}
+a:hover {
+	color: #17D0D5;
+}
+a:active {
+	color: #17D0D5;
+}
+.link_b a {
+	background:url(../../img/cmn/link_b.gif) left 50% no-repeat;
+	padding:0 0 0 10px;
+}
+.link_b a:hover {
+	background:url(../../img/cmn/link_b_o.gif) left 50% no-repeat;
+	padding:0 0 0 10px;
+}
+
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #FFF;	
+	box-shadow: 0 0 30px #EDE6E4;	
+}
+h1 {
+	color: #EEAD96;
+	text-align: right;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 64px;
+	padding-right: 20px;
+}
+#header {
+	width: 100%;
+	height: 64px;
+	position:relative;
+	border-bottom:5px solid #EEAD96;
+	margin-bottom: 30px;
+}
+#logo {
+	width: 173px;
+	height: 56px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 4px;
+	left: 15px;
+}
+/*-- contents --*/
+#contents {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+.teikibox {
+	width:900px;
+	margin:0 auto;
+}
+.teikibox .leftbox {
+	width:340px;
+	padding-right:30px;	
+	float:left;
+}
+.teikibox .rightbox {
+	width:530px;
+	float:right;
+	margin:0 0 20px;
+	background:url(../images/emuoilshop.png) right 42px no-repeat;	
+}
+.teikibox .leftbox img, .teikibox .rightbox img {
+	padding:0;
+}
+.teikibox .orderbtn {
+	width: 330px;
+	margin:20px 0 0;
+}
+.teikibox h3.tt {
+	font-size:30px;
+	font-weight:bold;
+	font-family:'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+	margin:0 0 20px;
+}
+.teikibox .sprice {
+}
+.teikibox .sprice .price {
+	font-size:40px;
+	font-weight:bold;
+}
+.taxinfo {
+	font-size: 16px;
+	padding:5px 0 10px;
+	font-weight: bold;
+	color:#8FAF2E;
+}
+/*.teiki_net {
+	position:relative;
+}
+.teiki_net span.net_img2 {
+	top: -214px;
+	right: -20px;
+	position:absolute;
+	width: 190px;
+	height:171px;
+	background:url(https://emu-oil.asia/img/order/net_present2.png) left top no-repeat;
+}*/
+.campaign_teiki {
+	position:relative;
+}
+.campaign_teiki span.cmp_img {
+	top: -247px;
+	right: 8px;
+	position: absolute;
+	width: 161px;
+	height: 144px;
+	background: url(https://emu-oil.asia/img/order/campaign_teiki.png) left top no-repeat;
+}
+.price {
+font-family:'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+color:#C41A1A;
+font-weight:bold;
+font-size:36px;
+margin:5px 0 0;
+text-shadow:1px 1px 1px #FFFFFF;
+line-height:1em !important;
+}
+.teikibox .redeem {
+	font-size:12px;
+	font-weight:bold;
+}
+.teikibox .points {
+	font-size:20px;
+	font-weight:bold;
+	color:#4089B3;
+}
+.teikibox .orderinfo {
+	background:url(../../img/order/icon_info.jpg) left 10px no-repeat;
+	margin:10px 0;
+	color:#8FAF2E;
+	font-weight:bold;
+	font-size:14px;
+	width:480px;	
+	padding:5px 0 5px 50px;	
+	border-top:1px solid #e7e7e2;
+	border-bottom:1px solid #e7e7e2;	
+}
+.kome {
+	color:#FF6700;
+	border: 5px solid #FF6700;
+	font-weight: bold;
+	padding:5px 10px;
+}
+.sonota {
+	width:900px;
+	margin:15px auto 60px;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #BBB;	
+}
+.sonota p {
+	font-weight: bold;
+}
+.sonota ul {
+	border:#BEC2B1 1px solid;
+	padding:10px 10px 10px 30px;
+}
+.sonota ul li {
+	list-style:none;
+}
+.merit {
+	min-height:127px;
+	margin:15px auto 0;
+	font-size:12px;
+}
+.shiyou {
+	width: 900px;
+	margin:10px auto;
+	font-size: 14px;
+}
+/* キャンペーン */
+.campaign_box {
+	border: 3px solid #FFAABA;
+	border-radius: 2px 2px 2px 2px;
+	padding: 10px;
+	margin: 0 0 15px;
+	background-image: url(https://emu-oil.asia/img/order/campaign_bg2.png), url(https://emu-oil.asia/img/order/campaign_bg.png);
+	background-position: left top, right bottom;
+	background-color: #FFFEFE;
+	background-repeat: no-repeat, no-repeat;
+	width: 474px;
+	box-shadow: 0 5px 5px #EEEEEE;
+	position: relative;
+}
+.teikibox .campaign_box {
+	width: 514px;
+	margin: 15px 0 0;
+}
+.campaign_box div.l {
+	padding: 10px 10px;
+	width: 324px;
+	max-height:140px;	
+}
+.campaign_box div.l-2 {
+	border-top: 1px dashed #FFAABA;
+	padding-top: 10px;
+}
+.teikibox .campaign_box div.l {
+	width: 344px;
+	font-size: 15px;
+	line-height: 1.2em;
+}
+.campaign_box div.l h4 {
+	font-size: 14px;
+	padding-bottom: 5px;
+	font-weight:bold;
+	color:#FF6700;
+}
+.campaign_box div.r {
+	position:absolute;
+	top:5px;
+	right:15px;
+	width:140px;
+	text-align: right;
+	padding:10px 0 0 10px;	
+}
+.campaign_box div.r-2 {
+	top: auto;
+	bottom: 15px;
+}
+.campaign_box div.r img {
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+
+#orderlist_tt {
+	width:820px;
+	margin:10px auto 30px;
+	background:url(../images/orderlist_tt.png) left bottom no-repeat;
+	padding: 0 0 5px 30px;
+}
+#guide {
+	width:850px;
+	margin:0 auto 30px;
+}
+#guide dl {
+	width:415px;
+	float:left;
+	padding-right:20px;
+}
+#guide dl dt {
+	background:#E7E7E2;
+	padding:8px 10px;
+	margin-bottom: 10px;
+}
+#guide dl dd {
+	margin-bottom: 10px;
+}
+#guide .table_tt_orb {
+	padding:5px 0 15px;
+	font-size:16px;
+	font-weight:bold;
+	color:#6CBF2A;
+}
+#guide p {
+	padding-bottom:10px;
+}
+#footer {
+	color: #FFF;
+	background: #EEAD96;
+	padding: 10px 5px;
+	font-weight: normal;
+	font-size: 13px;
+	width:950px;
+	margin: 0 auto;
+	height:40px;
+}
+#footer a {
+	color:#FFF;
+	font-weight: bold;
+}
+#footer ul {
+	padding-left:15px;
+}
+#footer ul li {
+	display:inline-block;
+}
+#copy {
+	padding-right:15px;
+	font-size: 10px;
+	text-align: right;
+}
+
+/*privacy*/
+h3.tts {
+	background:url(../../img/cmn/tts_bg.gif) left 3px no-repeat;
+	width:705px;
+	height:14px;
+	font-weight:bold;
+	padding:0 0 0 15px;
+	margin:0 0 20px;
+	font-size: 18px;
+}
+.conbox850 {
+	width:850px;
+	margin:0 auto 30px;
+}
+.conbox850 p {
+	margin-bottom: 10px;
+}
+
+.table01 {
+width:100%;
+border:#CCCCCC 1px solid;
+margin:0 auto;
+}
+.table01 th {
+width:25%;
+padding:10px;
+background:#E7E7E2;
+border:#CCCCCC 1px solid;
+font-weight:normal;
+}
+.table01 td {
+width:75%;
+padding:10px;
+background:#FFFFFF;
+border:#CCCCCC 1px solid;
+}
+
+
+/* teikibin */
+.teikibin {
+	font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 15px;
+	line-height:1.4em;
+}
+.teikibin h3 {
+	background-image: url(../../img/teikibin/tt01.png), url(../../img/teikibin/tt_bg.png);
+	background-size:auto, cover;
+	background-repeat:no-repeat, no-repeat;
+	background-position:left top, left bottom;
+	margin: 30px auto 15px ;
+	padding:0 0 0 75px;
+	width:785px;
+	height: 55px;
+	color:#473310;
+	font-weight:bold;
+	font-size:24px;
+	line-height: 55px;
+}
+.teikibin h3:nth-child(2) {
+	background-image: url(../../img/teikibin/tt01.png), url(../../img/teikibin/tt_bg.png);
+}
+.teikibin h3:nth-child(4) {
+	background-image: url(../../img/teikibin/tt02.png), url(../../img/teikibin/tt_bg.png);
+}
+.teikibin h3:nth-child(6) {
+	background-image: url(../../img/teikibin/tt03.png), url(../../img/teikibin/tt_bg.png);
+}
+.teikibin h3:nth-child(8) {
+	background-image: url(../../img/teikibin/tt04.png), url(../../img/teikibin/tt_bg.png);
+}
+.teikibin h3:nth-child(10) {
+	background-image: url(../../img/teikibin/tt05.png), url(../../img/teikibin/tt_bg.png);
+}
+.teikibin .otoku_box, .teikibin .otoku_box2 {
+	margin:0 auto;	
+	width:860px;
+}
+.teikibin .otoku_box h4, .teikibin .otoku_box2 h4 {
+	font-size: 18px;
+	font-weight: bold;
+	color:#FF6600;
+	padding-bottom: 15px;
+}
+.teikibin .otoku_box p, .teikibin .otoku_box2 p {
+	padding-bottom:10px;
+}
+.teikibin .otoku_box > img {
+	float:left;
+	width: 146px;
+	padding:0 0 15px 9px;
+}
+.teikibin .otoku_box > div {
+	float:left;
+	width:705px;
+}
+.teikibin .otoku_box2 img {
+	padding:0 8px 15px 0;
+}
+.teikibin .otoku_box > div.compare {
+	float:none !important;
+	clear:both;
+	width: 100%;
+	padding:10px 0 20px;
+	position:relative;
+}
+.compare table {
+	width:100%;
+	margin-bottom: 5px;
+	border: 2px dashed #EFEFEF;
+	border-spacing: 10px !important;
+}
+.compare table td img {
+	vertical-align: top !important;
+}
+.compare table th, .compare table td {
+	padding:5px;
+}
+.compare table th {
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 10px;
+	font-size: 18px;
+	color: #000;
+}
+.compare table td:first-child {
+	text-align: center;
+}
+.compare table td:last-child {
+	width: 278px;
+	height:65px;
+	padding:0 0 10px 30px;
+}
+.compare table td.sagaku {
+	background:url(../../img/teikibin/tt01_img2.png) left top no-repeat;	
+}
+.compare #teiki_campaign {
+	position: absolute;
+	top: 200px;
+	right: 80px;
+	overflow: hidden;
+	border: 2px solid #98C237;
+	padding: 45px 15px 15px;
+	width: 280px;
+	height: 230px;
+	background: url(../../img/teikibin/teiki_campaign.png) center 10px no-repeat #FFFFF0;
+	box-shadow: 5px 5px 0 #ECECEC;
+}
+.compare #teiki_campaign p {
+	clear:both;
+}
+.compare #teiki_campaign p img {
+	float: right;
+	padding:0 0 5px 5px;
+	width: 38%;
+}
+.teikibin .hints {
+	border:1px solid #DDDDDD;
+	padding:15px;
+	margin:10px auto 30px;
+	width: 658px;
+}
+.teikibin .hints p {
+	padding-bottom:5px;
+}
+.teikibin .hints ul li {
+	list-style:none !important;
+}
+.conbox_tk {
+	width:700px;
+	margin:40px auto 20px;
+}
+.teikibin .orderlist, .teikibin .orderlist_c {
+	font-size: 14px;
+	margin-bottom:0;
+}
+
+
+
+/* --- orderlistGoto --- */
+.orderlistGoto {
+	width:92%;
+	margin:0 auto 40px;
+	padding:15px 15px 25px;
+	background-color:#FCFAF3;
+}
+h3.orderlistGoto_title {
+	margin:10px auto;
+	font-size: 18px;
+	text-align:center;
+	font-weight:bold;
+	color:#8FAF2E;
+}
+.orderlistGoto_btn {
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width:100%;
+}
+.orderlistGoto_btn li {
+	flex-basis: 31%;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	margin: 8px;
+	/* background:#EBEDEA; */
+background-image:-moz-linear-gradient(50% 0% -90deg,rgb(255,255,255) 0%,rgb(238,238,238) 100%); 
+background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(255,255,255)),color-stop(1, rgb(238,238,238)));
+background-image:-webkit-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(238,238,238) 100%);
+background-image:-o-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(238,238,238) 100%);
+background-image:linear-gradient(180deg,rgb(255,255,255) 0%,rgb(238,238,238) 100%);
+-moz-border-radius:4%;
+-webkit-border-radius:4%/12%;
+border-radius:4%/12%;
+-moz-box-shadow:1px 4px 0px #D8D9D3;
+-webkit-box-shadow:1px 4px 0px #D8D9D3;
+box-shadow:1px 4px 0px #D8D9D3;
+}
+.orderlistGoto_btn li:hover {
+	background:#FDC2BE;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+    transform: translate3d(0, 4px, 0);
+}
+.orderlistGoto_btn li.orderlistGoto_btn-1row a {
+	line-height:49px;
+	padding:8px 8px 8px 38px;
+}
+.orderlistGoto_btn li.orderlistGoto_btn-2rows a {
+	line-height:1.2em;
+	padding:13px 8px 2px 38px;
+}
+.orderlistGoto_btn a {
+	position:relative;
+	display:block;
+	box-sizing:border-box;
+	width:100%;
+	height:65px;
+	font-size:16px;
+	line-height:1.2em;
+	font-weight: bold;
+	color:#565A57;
+}
+.orderlistGoto_btn a::after {
+	content:url(../img/order/icon_arrow_down01.png);
+	position: absolute;
+	width:26px;
+	height:26px;
+	left:8px;
+	top:25%;
+}
+.orderlistGoto_btn a::after {
+	content:url(../img/order/icon_arrow_down01_on.png);
+}
+.orderlistGoto_btn a span {
+	font-size:12px;
+}
+.orderlistGoto_icon {
+	position:absolute;
+	display:block;
+	top:5px;
+	right:5px;
+	width:40px;
+}
+.orderlistGoto_icon img {
+	width:100%;
+}
+.orderlistGoto_btn_new {
+	position:absolute;
+	top:-18px;
+	left:0;
+    width: 100px;
+	font-size:12px;
+	font-weight: bold;
+	color:#FF4000;
+}

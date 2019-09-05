@@ -1,0 +1,643 @@
+@charset "utf-8";
+
+/*----------------------------------------------------
+	基本設定、リンクカラーなど
+----------------------------------------------------*/
+body {
+	background: url(../images/crystal_sp/bg.png) left top repeat;
+	color: #555957;
+	font-size: 1.000em;/*16px*/
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", verdana, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+	overflow: hidden;
+}
+a {
+	color: #555957;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+/*-- header --*/
+header {
+	background: #EEAD98;
+	padding: 5px;
+display:-moz-box;
+display:-webkit-box;
+display:-o-box;
+display:-ms-box;
+	line-height: 1em;
+}
+header h1 {
+	width: 150px;
+	float:left;	
+}
+header h1 a {
+	display:block;
+	width:100%;
+}
+header h1 a img {
+	width: 100%;
+}
+header p {
+	text-align: right !important;
+	float:right;
+}
+.pcsite_w a {
+	display: block;
+	background: url(../images/icon_pcw.png) right 49% no-repeat;
+	padding-right: 25px;
+	color: #FFF;
+	min-height: 20px;
+	line-height: 20px;
+}
+.bn_crystal {
+	padding:0 10px ;
+	margin:0 auto;
+	width:100%;
+	text-align: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.bn_allinonegel {
+	margin:0 auto;
+	text-align: center;
+	max-width:230px;
+}
+@-webkit-keyframes blink {
+ from {
+  opacity: 1;
+ }
+ to {
+  opacity: 0;
+ }
+}
+.blinking{
+-webkit-animation-name: blink;/* keyframe名 */
+-webkit-animation-duration: 0.8s;/* アニメーションにかける時間 */
+-webkit-animation-iteration-count:infinite;/*infiniteで無限ループ */
+-webkit-animation-timing-function:linear;/* イーズインアウト */
+-webkit-animation-direction: alternate;/* alternateにするとアニメーションが反復 */
+-webkit-animation-delay: 0s; /* 実行までの待ち時間 */
+	text-align: center;
+	padding:5px;
+}
+.blinking a{
+	color:#15BBBF;
+}
+.blinking a:hover {
+	color:#17D0D5;	
+}
+
+/*-- topimg --*/
+#topimg {
+	background: #FFF;
+	position: relative;
+}
+#topimg h2 {
+	text-align: center;
+	font-size: 0.750em;/*12px*/
+	padding: 5px 0;
+}
+#topimg h2 img {
+	max-width: 369px;
+	width: 30%;
+}
+#topimg #topimg_bg {
+	text-align: center;
+	background-image: url(../images/h_bg.png);
+	background-size: 60% auto;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-bottom: 30%;
+}
+#topimg #topimg_bg img {
+	width: 96%;
+	max-width: 615px;
+}
+#topimg .muryou {
+	width: 36%;
+	position: absolute;
+	bottom: 0%;
+	left: 8px;
+}
+#topimg .muryou ul {
+	max-width: 220px;
+	max-height: 212px;
+}
+#topimg .muryou ul li {
+	float: left;
+	width: 50%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#topimg .muryou ul li:first-child {
+	padding: 0 2px 4px 0;
+}
+#topimg .muryou ul li:nth-child(2) {
+	padding: 0 0 4px 2px;
+}
+#topimg .muryou ul li:last-child {
+	width: 100%;
+	max-width: 220px;
+}
+#topimg .muryou ul li img {
+	width: 100%;
+	max-width: 108px;
+}
+#topimg .muryou ul li:last-child img {
+	max-width: 220px;
+}
+#top_order {
+	background: #FFF;
+	width: 100%;
+	padding: 5px 0 0;
+}
+.order_15 {
+	text-align: center;
+	padding: 5px 0;
+	width: 98%;
+	margin: 5px auto;
+}
+.order_15 a {
+	display:block;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1.125em !important;/*18px*/
+	color: #ffffff;
+	padding: 15px 15px;
+	background: -moz-linear-gradient(  top,  #0dccbf 0%,  #1C85A8);
+	background: -webkit-gradient(  linear, left top, left bottom,  from(#0dccbf),  to(#1C85A8));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #ffffff;
+	-moz-box-shadow: 1px 2px 10px rgba(000,000,000,0.3),  inset 0px 0px 3px rgba(255,255,255,1);
+	-webkit-box-shadow: 1px 2px 10px rgba(000,000,000,0.3),  inset 0px 0px 3px rgba(255,255,255,1);
+	box-shadow: 1px 2px 10px rgba(000,000,000,0.3),  inset 0px 0px 3px rgba(255,255,255,1);
+	text-shadow: 0px -1px 0px rgba(000,000,000,0.2),  0px 1px 0px rgba(255,255,255,1);
+}
+/*-- article --*/
+article {
+	width: 94%;
+	margin: 0 auto 10px;
+}
+article p {
+	padding-bottom: 10px;
+}
+h3 {
+	text-align: center;
+	padding: 10px 0;
+}
+h3 img {
+	width: 100%;
+	max-width: 600px;
+}
+.voice {
+	max-width: 595px;
+	min-height: 142px;
+	background-image: url(../images/img02.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 5% 5% 0 28%;
+	color: #EB6C80;
+	font-size: 0.875em;/*14px*/
+	line-height: 1.4em;
+}
+/*-- f_order --*/
+#f_order {
+	width: 100%;
+	padding:0 0 5px;
+}
+.orderbox01 {
+	width: 94%;
+	margin:0 auto;
+	padding:15px 0 5px;
+	border-bottom: 1px dashed #E0D1A5;
+}
+.orderbox01 p {
+	text-align: center;
+}
+
+.movieBox {
+	margin: 0 auto;
+	padding:0 10px 10px;
+	width: 100%;
+	text-align: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.movieBox a:hover {
+	opacity: 0.8;
+}
+.movieBox img {
+	width:100%;
+	vertical-align:bottom;
+}
+.bnr_voice {
+	margin:0 auto 10px;
+	text-align: center;
+}
+.bnr_voice img {
+	width:100%;
+	max-width:230px;
+}
+/* キャンペーン */
+.campaign_bnr {
+	margin: 0 auto;
+	padding:0 10px 10px;
+	width: 100%;
+	text-align: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.campaign_bnr a:hover {
+	opacity: 0.8;
+}
+.original_net {
+	position:relative;
+}
+.original_net span.net_img {
+	top:-24px;
+	left:50%;
+	position:absolute;
+	width: 122px;
+	height:109px;
+	background:url(https://emu-oil.asia/img/order/net_present.png) left top no-repeat;
+}
+.campaign_teiki {
+	position:relative;
+}
+.campaign_teiki span.cmp_img2 {
+	top:-24px;
+	left:50%;
+	position: absolute;
+	width: 161px;
+	height: 134px;
+	background: url(https://emu-oil.asia/img/order/campaign_teiki.png) left top no-repeat;
+}
+.campaign_cs15 {
+	position: relative;
+}
+.campaign_cs15 span.cmp_img {
+	top: -25px;
+	left:50%;
+	position: absolute;
+	width: 161px;
+	height: 142px;
+	background: url(https://emu-oil.asia/img/order/campaign_cs15.png) left top no-repeat;
+}
+.campaign_box {
+	border: 3px solid #FFAABA;
+	border-radius: 2px 2px 2px 2px;
+	padding: 10px;
+	margin: 10px auto 15px;
+	background:url(https://emu-oil.asia/img/order/campaign_bg.png) right bottom no-repeat #FFFEFE;
+	width:100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 0 5px 5px #EEEEEE;
+	font-size: 13px;
+	position:relative;
+	z-index: 0;
+}
+.campaign_box::before {
+	content: url(https://emu-oil.asia/img/order/campaign_bg.png);
+	position:absolute;
+	width:41px;
+	height:40px;
+	top: 0;
+	left: 0;
+	transform:rotate(-180deg);
+	z-index: -1;
+}
+.campaign_box h4 {
+	z-index: 1;
+	padding:10px 0;
+	font-weight: bold;
+	color:#F76BBA !important;
+}
+.campaign_box h4:nth-child(3) {
+	margin-top: 10px;
+	border-top: 1px dashed #FFAABA;
+}
+.campaign_box p {
+	text-align: left;
+	padding-bottom:0;
+}
+
+.price {
+font-family:'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+color:#C41A1A;
+font-weight:bold;
+font-size:36px;
+margin:5px 0 0;
+text-shadow:1px 1px 1px #FFFFFF;
+line-height:1em !important;
+}
+.taxinfo {
+	color:#8FAF2E;
+}
+.point {
+	padding-bottom: 10px;
+	max-width:326px;
+	text-align: center;
+	margin:0 auto;
+}
+.orderbox01 .orderbtn a {
+	background:url(https://emu-oil.asia/img/cmn/link_w.gif) 10px 50% no-repeat #15BBBF;
+	padding:5px 0 5px 20px;
+	border:1px solid #15BBBF;
+	color:#FFFFFF;
+	width:200px;
+	display:block;
+	font-size: 14px;
+	margin:10px auto;
+	text-align: left;
+}
+.orderbox01 .orderbtn a:hover {
+	background:url(https://emu-oil.asia/img/cmn/link_b.gif) 10px 50% no-repeat transparent;
+	color:#15BBBF;
+}
+
+.orderform {
+	width: 222px;
+	margin:10px auto;
+	padding:0;
+}
+.orderform div {
+	width: 100px;
+	float:left;
+	vertical-align:bottom;
+	padding-top: 7px;
+}
+.orderform div form {
+	margin:0;
+	padding:0;
+}
+.orderform p {
+	width: 122px;
+	float:left;
+}
+.orderform p input[type="submit"] {
+	background:url(https://emu-oil.asia/img/cmn/link_w.gif) 10px 50% no-repeat #15BBBF;
+	padding:5px 0 5px 20px;
+	border:1px solid #15BBBF;
+	color:#FFF;
+	width:120px;
+	text-align:left;
+	display:block;
+	font-size: 14px;
+	line-height: 22px;
+	margin:0;
+}
+.orderform p input[type="submit"]:hover {
+	background:url(https://emu-oil.asia/img/cmn/link_b.gif) 10px 50% no-repeat transparent;
+	color:#15BBBF;
+}
+.gift_form {
+	margin-bottom:10px;
+	text-align:center;
+}
+.gift_form input {
+	margin-left:10px;
+	padding:5px;
+	width:200px;
+	height:60px;
+	text-align:center;
+}
+
+#cs_list {
+	width:930px;
+	margin:0 auto 40px;
+}
+#cs_list li {
+	width:222px;
+	height:354px;	
+	float:left;
+	padding-right: 14px;	
+}
+#cs_list li.last {
+padding-right: 0px;	
+}
+#cs_list li .fs-12 {
+	line-height:12px;
+}
+/*-- teiki --*/
+.btn_teiki {
+	margin: 15px auto;
+	width:204px;
+	border: 1px solid #6EC3CA;
+}
+.btn_teiki a {
+	display:block;
+	width:100%;
+}
+.btn_teiki_img {
+	width: 100%;
+}
+.btn_teiki_txt {
+	padding:8px 13px 8px 8px;
+	text-align: left !important;
+	line-height: 1.4em;
+	font-size: 12px;
+	color:#15BBBF;
+	background:url(https://emu-oil.asia/img/cmn/link_b.gif) 97% 50% no-repeat #FFF;
+}
+.btn_teiki_txt:hover {
+	color: #17D0D5;
+}
+.sonota {
+	margin:0 auto;
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+.sonota p {
+	padding-bottom:0;
+	text-align: left;
+}
+.sonota ul {
+	border:#BEC2B1 1px solid;
+	padding:10px;
+	background:#FFF;
+}
+.sonota ul li {
+	list-style:none;
+}
+
+
+/*-- footer --*/
+#pcsite {
+	text-align: center;
+	padding: 5px 0;
+	width: 98%;
+	margin: 0 auto;
+}
+#pcsite a {
+	width: 100%;
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1.125em !important;/*18px*/
+	color: #A1A1A1;
+	padding: 10px 10px 10px 35px;
+	background-image: url(../images/icon_pcg.png), -moz-linear-gradient(  top,  #FFF 0%,  #F6F6F6);
+	background-image: url(../images/icon_pcg.png), -webkit-gradient(  linear, left top, left bottom,  from(#FFF),  to(#F6F6F6));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+	-moz-box-shadow: 1px 2px 10px rgba(000,000,000,0.5),  inset 0px 0px 3px rgba(255,255,255,1);
+	-webkit-box-shadow: 1px 2px 10px rgba(000,000,000,0.5), inset 0px 0px 3px rgba(255,255,255,1);
+	box-shadow: 1px 2px 10px rgba(000,000,000,0.5),  inset 0px 0px 3px rgba(255,255,255,1);
+	text-shadow: 0px -1px 0px rgba(000,000,000,0.2),  0px 1px 0px rgba(255,255,255,1);
+	background-repeat: no-repeat, repeat;
+	background-position: 5px 50%, left top;
+}
+#pcsite a img {
+	width: 100%;
+}
+#guide {
+	background:#FFF;
+}
+#guide h4 {
+	background: #EEAD98;
+	text-align:center;
+	padding:5px;
+	color:#FFF;
+	font-size: 0.875em;/*14px*/
+	margin: 10px auto 10px;
+}
+#guide h5 {
+	background:#FFFBEC;
+	padding:5px 8px;
+	width:94%;
+	margin:0 auto 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+#guide p {
+	padding-bottom:10px;
+	width:94%;
+	margin:0 auto;
+	font-size: 0.875em;/*14px*/		
+}
+#guide .table_tt_orb {
+	padding:5px 0 10px;
+	font-size:16px;
+	font-weight:bold;
+	color:#6CBF2A;
+}
+#f_navi {
+	background: #EEAD98;
+	text-align:center;
+	padding:5px;
+	font-size: 0.875em;/*14px*/
+	margin: 0 auto;
+}
+#f_navi ul li {
+	display:inline-block;
+	font-size: 0.750em;/*12px*/
+	padding:0 3px;
+}
+#f_navi a {
+	color:#FFF;
+}
+#copy {
+	color:#FFFBEC;
+	font-size: 0.625em;/*10px*/
+	background: #EEAD98;
+	text-align: center;	
+}
+
+/*--------------------- page --*/
+
+/*teikibin*/
+#teikibin h2 {
+	text-align: center;
+	padding:10px 0 0;
+}
+#teikibin h2 img {
+	width:100%;
+	height:auto;
+	max-width:640px;
+	max-height:417px;
+}
+.teikilist {
+	max-width:618px;
+	padding: 8px;
+	border-bottom: 1px dashed #BBB;
+	margin:0 auto 30px;
+	display: table;
+	background:#FFF;
+}
+.teikilist div {
+	display:table-cell;
+}
+.teikilist div a img {
+	display:block;
+	width:100%;
+	height:auto;
+	max-width:222px;
+	max-height: 278px;
+}
+.teikilist .c {
+	padding:0 8px;
+}
+
+#teikibin h3 {
+	background: url(../../img/teikibin/tt01.png) left center no-repeat;
+	background-size: 48px auto;
+	max-width:585px;
+	min-height:36px;
+	margin: 15px auto;
+	padding:0 0 3px 55px;	
+	color:#473310;
+	font-weight:bold;
+	font-size: 1.125em;
+	line-height:20px;
+	text-align: left;
+	border-bottom: 2px dashed #98C237;
+}
+#teikibin h3:nth-child(3) {
+	background-image: url(../../img/teikibin/tt01.png);
+}
+#teikibin h3:nth-child(5) {
+	background-image: url(../../img/teikibin/tt02.png);
+}
+#teikibin h3:nth-child(7) {
+	background-image: url(../../img/teikibin/tt03.png);
+}
+#teikibin h3:nth-child(9) {
+	background-image: url(../../img/teikibin/tt04.png);
+}
+#teikibin h4 {
+	font-size: 1.000em;
+	color:#FF6600;
+	padding-bottom: 10px;
+}

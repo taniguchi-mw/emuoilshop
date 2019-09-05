@@ -1,0 +1,59 @@
+
+
+.l-2 で次の段の線ができる
+---------------------------------------------------------------------------
+■PC
+---------------------------------------------------------------------------
+<div class="campaign_box">
+              <div class="l">
+                <h4>クリスタル石鹸サンプルプレゼントキャンペーン！</h4>
+                <p>エミューの雫72ml定期便の初回に「エミューの雫 クリスタル石鹸サンプル」1個を同封してお送り致します。「ぷにぷに」新感覚美容石鹸をどうぞお試しください♪</p>
+                <p class="fc-lp">【キャンペーン期間：2015年5月31日迄】</p>
+              </div>
+              <div class="r"><img src="../img/order/campaign_teiki.png" alt="オリジナル泡立てネットプレゼント！" /></div>
+              <div class="l l-2">
+                <h4>エミューの雫オリジナル扇子をプレゼント！</h4>
+                <p>エミューの雫、オールインワンゲル、クリスタル石鹸いずれかの定期便を新規お申込みいただいた方へ、初回定期便と一緒に1本をお届けします。</p>
+                <p class="fs-12 fc-lp">※当キャンペーンは予告なく終了する場合がございます。</p>
+              </div>
+              <div class="r r-2"><img src="../img/order/campaign_teiki_sensu.png" height="139" width="161" alt="エミューの雫オリジナル扇子をプレゼント" /></div>
+            </div>
+
+
+--------------------
+□orderlist.lbi
+--------------------
+
+<p class="campaign_teiki"><a href="../teikibin/" class="over">の次に
+<span class="cmp_img2"></span>
+
+・雫15ml+石鹸5%OFF
+------------------
+<p class="campaign_cs15"><a href="https://u-connect.jp/shop/add_to_cart/?item_qty_32[qty]=1&item_id_32=order&return_url=https://emu-oil.asia/order/" class="over" target="_blank">の次に
+<span class="cmp_img"></span>
+
+    <p class="fc-redb">4,100円(税込4,428円)が5/31迄</p>
+    <p class="price">&yen;3,889<span class="fs-14 fc-br fw-n">&nbsp;(税別)</span></p>
+
+---------------------------------------------------------------------------
+■スマホ
+---------------------------------------------------------------------------
+        <h4>クリスタル石鹸サンプルプレゼントキャンペーン！</h4>
+        <p>エミューの雫72ml定期便の初回に「エミューの雫 クリスタル石鹸サンプル」1個を同封してお送り致します。「ぷにぷに」新感覚美容石鹸をどうぞお試しください♪<br>
+          <span class="fc-lp">【キャンペーン期間：2015年5月31日迄】</span> </p>
+
+
+
+---------------------------------------------------------------------------
+■LP
+---------------------------------------------------------------------------
+<li class="teiki_order"><a href="teiki.html" target="_blank"><img src="images/teiki_order.jpg" width="405" height="198" alt="エミューの雫　定期便ご注文" class="rollover" /></a>
+の下２箇所
+----------------------
+      <p><img src="../img/order/campaign_teiki.png" width="161" height="134" alt="クリスタル石鹸サンプルプレゼントキャンペーン！" /></p>
+
+・雫15ml+石鹸5%OFF
+----------------------
+<li class="campaign_cs15_2"><a href="https://u-connect.jp/shop/add_to_cart/?item_qty_32[qty]=1&item_id_32=order&return_url=https://emu-oil.asia/lp/crystal_sekken.html" target="_blank" onclick="javascript:_gaq.push(['_trackPageview', '/purchaseCE15.html']);">の次
+<span>期間限定5%OFF!&yen;3,889(税込価格:&yen;4,200)<br />
+          両方お試しのチャンスです！【2015/5/31迄】</span>
