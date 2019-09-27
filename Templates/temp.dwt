@@ -97,6 +97,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </ul>
   </nav>
 </div>
+<div id="headBnr">
+  <a href="../news/20190927.html"><img src="../img/campaign/bnr_cashless.png" alt="キャッシュレス・消費者還元事業の対象店です" /></a>
+</div>
 <!-- TemplateBeginEditable name="topimg" -->
 <div class="topimg_bg">
   <div class="topimg"><img src="../img/index/topimg.png" alt="お肌にやさしい100％天然エミューオイル" /></div>
