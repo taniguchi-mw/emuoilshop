@@ -284,6 +284,27 @@ h1#index_tt {
 	padding: 0;
 	vertical-align: middle;
 }
+
+#headBnr {
+	padding:1px 0;
+	margin:5px auto 0;
+	width:100%;
+	max-width:1000px;
+	text-align: center;
+	background-color: rgb(241,235,223,0.7);
+}
+#headBnr a:hover {
+	filter: alpha(opacity=80);
+	-khtml-opacity: 0.8;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+#headBnr img {
+	width:50%;
+	min-width:320px;
+	vertical-align:bottom;
+}
+
 /* .index
 ----------------------------------------------------------- */
 .indexpage_img_bg {
