@@ -28,6 +28,7 @@ calObj[0].daysClass["8/14"] = 'Holyday;夏季休業(8/12～8/15)';//★変更
 calObj[0].daysClass["8/15"] = 'Holyday;夏季休業(8/12～8/15)';//★変更
 calObj[0].daysClass["9/23"] = 'Holyday;秋分の日';//★2017～19年は23日、2020年は22日
 calObj[0].daysClass["9/24"] = 'Holyday;振替休日';//★変更
+calObj[0].daysClass["10/22"] = 'Holyday;即位礼正殿の儀';//★2019年のみ
 calObj[0].daysClass["11/3"] = 'Holyday;文化の日';
 calObj[0].daysClass["11/23"] = 'Holyday;勤労感謝の日';
 calObj[0].daysClass["12/23"] = 'Holyday;天皇誕生日';
